@@ -1,0 +1,9 @@
+body{
+    font:sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../images/pc_main.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
