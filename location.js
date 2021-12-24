@@ -78,7 +78,7 @@ marker.bindPopup(`
 
 map.on('click', function(e){
     var {lat, lng} = e.latlng;
-   customizeMarker(lat, lng);
+  //  customizeMarker(lat, lng);
 
     });
 // https://gis.stackexchange.com/a/210102
