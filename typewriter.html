@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="assets/images/pc_main.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      /* The typing effect */
+      @keyframes typing {
+        from {
+          width: 108px;
+        border-right: thin solid tomato;
+
+        }
+        to {
+          width: 30%;
+            border: none;
+
+        }
+      }
+
+      .heading {
+        font-size: xx-large;
+        padding: 3px;
+        /* animation: typing duration timing-function delay iteration-count direction fill-mode; */
+        transition: all 5s;
+        animation-name: typing;
+        animation-duration: 10s;
+        width: 30%;
+        animation-delay: 0ms;
+        overflow-x: hidden;
+        animation-iteration-count: infinite;
+        /* animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); */
+      }
+    </style>
+    <h2 class="heading">Software&nbsp;engineer</h2>
+
+    
+  </body>
+</html>
